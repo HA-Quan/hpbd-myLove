@@ -793,9 +793,13 @@ body {
         font-size: 2rem;
     }
     .content__letter .left{
-        display: flex;
+        width: 0% !important;
+        display: none;
         justify-content: center;
         align-items: center;
+    }
+    .content__letter .right{
+        width: 110% !important;
     }
     .content__letter .left .heart_2{
         top: 50px;
@@ -814,5 +818,11 @@ body {
     .text__letter{
         margin-top: 0px!important;
         font-size: 1rem!important;
+    }
+    .content__letter .right .love__img{
+        top: -20px !important;
+    }
+    .content__letter .right .text__letter {
+        padding: 45px 15px 10px 15px;
     }
 }
